@@ -6,23 +6,34 @@
       rgba(255, 0, 0, 0.45)
     ),
     /* bottom, image */
-    url(image.jpg);
-
+    url(https://i.postimg.cc/m229L8xL/pngtree-modern-double-color-futuristic-neon-background-image-351866.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+object-position:10px 10px;
 }
 .rounded-image{
-    max-width: 33%;
+    width:300px;
     aspect-ratio: 1;
     object-fit: cover;
-    object-position:10px 10px;
+    /* object-position: 10px 10px; */
     border-radius: 50%;
-
 }
+
 .circle{
     width: 10px !important;
-    height:10px !important;
+    height:auto!important;
     aspect-ratio: 1 !important;
-    border-radius: 50% !important;
+    border-radius:50% !important;
 }
-body{
-    ba
+.projects-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: space-between;
+}
+.projects-container img{
+    max-height: 400px;
+    /* max-width: 300px; */
+    flex-grow: 1;
+    object-fit: cover;
 }
